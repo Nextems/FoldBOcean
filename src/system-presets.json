@@ -1,0 +1,52 @@
+{
+  "group": {
+    "id": "sys-prog",
+    "name": "sys prog",
+    "parentId": null,
+    "position": 1
+  },
+  "apps": [
+    {
+      "id": "sys-settings",
+      "name": "Параметры Windows",
+      "groupId": "sys-prog",
+      "path": "ms-settings:",
+      "position": 1
+    },
+    {
+      "id": "sys-cmd",
+      "name": "Командная строка",
+      "groupId": "sys-prog",
+      "path": "cmd.exe",
+      "position": 2
+    },
+    {
+      "id": "sys-regedit",
+      "name": "Редактор реестра",
+      "groupId": "sys-prog",
+      "path": "regedit.exe",
+      "position": 3
+    },
+    {
+      "id": "sys-disks",
+      "name": "Управление дисками",
+      "groupId": "sys-prog",
+      "path": "diskmgmt.msc",
+      "position": 4
+    },
+    {
+      "id": "sys-devices",
+      "name": "Диспетчер устройств",
+      "groupId": "sys-prog",
+      "path": "devmgmt.msc",
+      "position": 5
+    },
+    {
+      "id": "sys-control",
+      "name": "Панель управления",
+      "groupId": "sys-prog",
+      "path": "control.exe",
+      "position": 6
+    }
+  ]
+}

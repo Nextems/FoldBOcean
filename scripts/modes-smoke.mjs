@@ -1,0 +1,16 @@
+import {chromium} from 'playwright';
+import {readFile} from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const fixture=JSON.parse(await readFile(new URL('../release/web-geometry.json',import.meta.url),'utf8'));
+const browser=await chromium.launch({channel:'msedge',headless:true});
+try{
+ const page=await browser.newPage({viewport:{width:1600,height:1000}}),errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('http://127.0.0.1:1420');
+ await page.evaluate(async()=>{const {iconBox,ringRadius,ringInner,ringCapacity,hitSector,TAU}=await import('/src/radial-layout.js');for(let depth=0;depth<5;depth++)for(let rotation=-3;rotation<3;rotation+=0.17){const count=ringCapacity(depth),sweep=TAU/count;for(let i=0;i<count;i++){const angle=rotation+i*sweep,sector={depth,radius:ringRadius(depth),inner:ringInner(depth),center:{x:0,y:0},start:angle-sweep/2,sweep,angle};const box=iconBox(sector),a=angle+(Math.sin(angle)>0.1?-Math.PI/2:Math.PI/2);for(const dx of [-box.size/2,box.size/2])for(const dy of [-box.size/2,box.size/2]){const point={x:box.x+dx*Math.cos(a)-dy*Math.sin(a),y:box.y+dx*Math.sin(a)+dy*Math.cos(a)};if(hitSector({sectors:[sector]},point)!==0)throw Error('Rotated icon escapes sector');}}}});
+ const actual=await page.evaluate(async config=>{const {makeScene}=await import('/src/layout.js');return makeScene(config).nodes.map(n=>({id:n.id,x:n.x,y:n.y}));},fixture.config);for(const expected of fixture.nodes){const node=actual.find(n=>n.id===expected.id);assert.ok(node);assert.ok(Math.abs(node.x-expected.x)<0.001&&Math.abs(node.y-expected.y)<0.001,'Web geometry matches native');}
+ await page.locator('#web-tab').click();await page.locator('[data-layout="web"]').click();assert.ok(await page.locator('#web-preview').count());assert.equal(await page.locator('#radial-preview').count(),0);
+ const saved=()=>page.evaluate(()=>JSON.parse(localStorage.getItem('spiderweb-preview')));let config=await saved();assert.equal(config.launcher.view,'web');const groupCount=config.groups.length,appCount=config.apps.length;
+ const node=page.locator('[data-node-id="sys-prog"]');const previous=await node.getAttribute('transform');const b=await node.boundingBox();await page.mouse.move(b.x+b.width/2,b.y+b.height/2);await page.mouse.down();await page.mouse.move(b.x+b.width/2+35,b.y+b.height/2+20,{steps:5});await page.mouse.up();assert.notEqual(await node.getAttribute('transform'),previous);await page.waitForFunction(()=>JSON.parse(localStorage.getItem('spiderweb-preview')).layout.nodes['sys-prog']);
+ const layout=(await saved()).layout;await page.locator('[data-layout="radial"]').click();assert.ok(await page.locator('#radial-preview').count());config=await saved();assert.equal(config.launcher.view,'radial');assert.equal(config.groups.length,groupCount);assert.equal(config.apps.length,appCount);assert.deepEqual(config.layout,layout);
+ await page.locator('[data-layout="web"]').click();await page.reload();await page.locator('#web-tab').click();assert.ok(await page.locator('#web-preview').count());await page.locator('[data-layout="radial"]').click();assert.deepEqual(errors,[]);
+ console.log('PASS: rotated icon corners stay in all sectors; native/web geometry parity; view switch and restart persist; web drag works; groups, apps and layouts survive both modes.');
+}finally{await browser.close();}

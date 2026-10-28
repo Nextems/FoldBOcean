@@ -1,0 +1,98 @@
+[
+  {
+    "interruptsPerSec": 19694.121937042717,
+    "interruptPercent": 1.152244064643893,
+    "dpcPercent": 0.2880637815378792,
+    "systemCpuPercent": 16.03048064794772,
+    "systemContextSwitchesPerSec": 29336.634704443884,
+    "launcherContextSwitchesPerSec": null
+  },
+  {
+    "interruptsPerSec": 19253.363620248187,
+    "interruptPercent": 0.2862953669755584,
+    "dpcPercent": 0.14315318049954864,
+    "systemCpuPercent": 9.81465065775594,
+    "systemContextSwitchesPerSec": 28351.094784876543,
+    "launcherContextSwitchesPerSec": null
+  },
+  {
+    "interruptsPerSec": 19150.511723780695,
+    "interruptPercent": 0.4343499744647181,
+    "dpcPercent": 0.7239055048908433,
+    "systemCpuPercent": 11.6832948997597,
+    "systemContextSwitchesPerSec": 27515.307565269482,
+    "launcherContextSwitchesPerSec": null
+  },
+  {
+    "interruptsPerSec": 19653.477745781358,
+    "interruptPercent": 0.4344884766341481,
+    "dpcPercent": 0.14483319989384164,
+    "systemCpuPercent": 9.19075158653586,
+    "systemContextSwitchesPerSec": 28429.75486037367,
+    "launcherContextSwitchesPerSec": null
+  },
+  {
+    "interruptsPerSec": 19411.8261059777,
+    "interruptPercent": 0.7221520029859967,
+    "dpcPercent": 0.4332801096788112,
+    "systemCpuPercent": 13.487299253556273,
+    "systemContextSwitchesPerSec": 28048.42485232869,
+    "launcherContextSwitchesPerSec": null
+  },
+  {
+    "interruptsPerSec": 19190.47391511329,
+    "interruptPercent": 0.43202640424341904,
+    "dpcPercent": 0.2880249761739573,
+    "systemCpuPercent": 10.137357675547086,
+    "systemContextSwitchesPerSec": 27794.66392005083,
+    "launcherContextSwitchesPerSec": null
+  },
+  {
+    "interruptsPerSec": 19103.316345467556,
+    "interruptPercent": 0.28853870248880975,
+    "dpcPercent": 0.14426935124440488,
+    "systemCpuPercent": 8.967202737937786,
+    "systemContextSwitchesPerSec": 27357.562185493844,
+    "launcherContextSwitchesPerSec": null
+  },
+  {
+    "interruptsPerSec": 19160.455710052993,
+    "interruptPercent": 0.14430591746246782,
+    "dpcPercent": 0.5772125872972669,
+    "systemCpuPercent": 7.933999409521597,
+    "systemContextSwitchesPerSec": 27902.19888036525,
+    "launcherContextSwitchesPerSec": null
+  },
+  {
+    "interruptsPerSec": 20602.681581614543,
+    "interruptPercent": 0.2883214798339934,
+    "dpcPercent": 0.5766540314962513,
+    "systemCpuPercent": 12.348033621156585,
+    "systemContextSwitchesPerSec": 30451.17968288611,
+    "launcherContextSwitchesPerSec": null
+  },
+  {
+    "interruptsPerSec": 20423.496708773633,
+    "interruptPercent": 0.43201983289880297,
+    "dpcPercent": 0.2880132219325353,
+    "systemCpuPercent": 11.005053558161038,
+    "systemContextSwitchesPerSec": 30250.396847075695,
+    "launcherContextSwitchesPerSec": null
+  },
+  {
+    "interruptsPerSec": 20729.186515456262,
+    "interruptPercent": 0.43201508015979984,
+    "dpcPercent": 0.2880174265916109,
+    "systemCpuPercent": 17.916084095514464,
+    "systemContextSwitchesPerSec": 30523.129952336363,
+    "launcherContextSwitchesPerSec": null
+  },
+  {
+    "interruptsPerSec": 19286.84276110388,
+    "interruptPercent": 0.8644844662791858,
+    "dpcPercent": 0.4322367004390087,
+    "systemCpuPercent": 14.560109361572826,
+    "systemContextSwitchesPerSec": 28390.214837810356,
+    "launcherContextSwitchesPerSec": null
+  }
+]

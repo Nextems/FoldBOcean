@@ -1,0 +1,23 @@
+{
+  "name": "spiderweb-settings",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 1420 --strictPort",
+    "build": "vite build",
+    "tauri": "tauri",
+    "test": "node --test tests/*.test.mjs",
+    "test:smoke": "node scripts/run-smoke.mjs",
+    "build:installer": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-installer.ps1"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-dialog": "^2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "playwright": "^1.64.1",
+    "vite": "^7"
+  }
+}

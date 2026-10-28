@@ -1,0 +1,1122 @@
+{
+  "radial/tray-cold": {
+    "trials": 3,
+    "workingSetMiB": {
+      "mean": 12.233072916666666,
+      "min": 12.20703125,
+      "max": 12.25
+    },
+    "privateMiB": {
+      "mean": 2.0481770833333335,
+      "min": 2.0390625,
+      "max": 2.0546875
+    },
+    "gdi": {
+      "mean": 13,
+      "min": 13,
+      "max": 13
+    },
+    "user": {
+      "mean": 12,
+      "min": 12,
+      "max": 12
+    },
+    "handles": {
+      "mean": 157,
+      "min": 157,
+      "max": 157
+    },
+    "threads": {
+      "mean": 7,
+      "min": 7,
+      "max": 7
+    },
+    "interruptsPerSec": {
+      "mean": 20348.162730837346,
+      "min": 19280.318921559945,
+      "max": 22212.431895679892
+    },
+    "interruptPercent": {
+      "mean": 0.5107101821382213,
+      "min": 0.5046205279344443,
+      "max": 0.5166350125141589
+    },
+    "dpcPercent": {
+      "mean": 0.36038976511565823,
+      "min": 0.24187778296744952,
+      "max": 0.5428785685357705
+    },
+    "systemCpuPercent": {
+      "mean": 14.63477581315041,
+      "min": 12.438467227553053,
+      "max": 18.114877295441026
+    },
+    "systemContextSwitchesPerSec": {
+      "mean": 30188.259887013875,
+      "min": 28366.113202355016,
+      "max": 33219.91370591916
+    },
+    "launcherContextSwitchesPerSec": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "cpuOneCorePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "cpuMachinePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "processPeakWorkingSetMiB": {
+      "mean": 12.233072916666666,
+      "min": 12.20703125,
+      "max": 12.25
+    },
+    "visibleSamples": 0,
+    "totalSamples": 18
+  },
+  "radial/tray-mouse": {
+    "trials": 3,
+    "workingSetMiB": {
+      "mean": 12.234375,
+      "min": 12.2109375,
+      "max": 12.25
+    },
+    "privateMiB": {
+      "mean": 2.0481770833333335,
+      "min": 2.0390625,
+      "max": 2.0546875
+    },
+    "gdi": {
+      "mean": 13,
+      "min": 13,
+      "max": 13
+    },
+    "user": {
+      "mean": 12,
+      "min": 12,
+      "max": 12
+    },
+    "handles": {
+      "mean": 157,
+      "min": 157,
+      "max": 157
+    },
+    "threads": {
+      "mean": 7,
+      "min": 7,
+      "max": 7
+    },
+    "interruptsPerSec": {
+      "mean": 24651.105771852177,
+      "min": 24330.247444663324,
+      "max": 25041.572437625462
+    },
+    "interruptPercent": {
+      "mean": 0.5417783546987617,
+      "min": 0.35550770076888627,
+      "max": 0.7245098453371424
+    },
+    "dpcPercent": {
+      "mean": 0.3914368976711473,
+      "min": 0.207274982880316,
+      "max": 0.5428534636239756
+    },
+    "systemCpuPercent": {
+      "mean": 13.324597902853498,
+      "min": 12.831030442902714,
+      "max": 13.83956684844514
+    },
+    "systemContextSwitchesPerSec": {
+      "mean": 38319.039293413836,
+      "min": 38050.59813040039,
+      "max": 38746.6382226904
+    },
+    "launcherContextSwitchesPerSec": {
+      "mean": 2.539930947128243,
+      "min": 0,
+      "max": 7.619792841384729
+    },
+    "cpuOneCorePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "cpuMachinePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "processPeakWorkingSetMiB": {
+      "mean": 12.234375,
+      "min": 12.2109375,
+      "max": 12.25
+    },
+    "visibleSamples": 0,
+    "totalSamples": 18
+  },
+  "radial/root": {
+    "trials": 3,
+    "workingSetMiB": {
+      "mean": 31.029947916666668,
+      "min": 30.9765625,
+      "max": 31.08984375
+    },
+    "privateMiB": {
+      "mean": 5.694010416666667,
+      "min": 5.55078125,
+      "max": 5.796875
+    },
+    "gdi": {
+      "mean": 55,
+      "min": 55,
+      "max": 55
+    },
+    "user": {
+      "mean": 20,
+      "min": 20,
+      "max": 20
+    },
+    "handles": {
+      "mean": 226,
+      "min": 226,
+      "max": 226
+    },
+    "threads": {
+      "mean": 7,
+      "min": 7,
+      "max": 7
+    },
+    "interruptsPerSec": {
+      "mean": 22783.700243875744,
+      "min": 22513.36399432423,
+      "max": 23008.197033553835
+    },
+    "interruptPercent": {
+      "mean": 0.7982266151653991,
+      "min": 0.5435639199362677,
+      "max": 1.1987491229234162
+    },
+    "dpcPercent": {
+      "mean": 0.5608251838578621,
+      "min": 0.32669576165684117,
+      "max": 0.6911247494575682
+    },
+    "systemCpuPercent": {
+      "mean": 16.078673040033333,
+      "min": 14.890545364545618,
+      "max": 17.85536582666523
+    },
+    "systemContextSwitchesPerSec": {
+      "mean": 34392.36991333205,
+      "min": 33937.2458779257,
+      "max": 34809.02301171194
+    },
+    "launcherContextSwitchesPerSec": {
+      "mean": 8.186539443830714,
+      "min": 7.17063402160274,
+      "max": 9.341170440720733
+    },
+    "cpuOneCorePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "cpuMachinePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "processPeakWorkingSetMiB": {
+      "mean": 44.4140625,
+      "min": 44.37109375,
+      "max": 44.48828125
+    },
+    "visibleSamples": 18,
+    "totalSamples": 18
+  },
+  "radial/expanded": {
+    "trials": 3,
+    "workingSetMiB": {
+      "mean": 40.239583333333336,
+      "min": 37.68359375,
+      "max": 41.8359375
+    },
+    "privateMiB": {
+      "mean": 7.458333333333333,
+      "min": 6.5,
+      "max": 8.23046875
+    },
+    "gdi": {
+      "mean": 55,
+      "min": 55,
+      "max": 55
+    },
+    "user": {
+      "mean": 20,
+      "min": 20,
+      "max": 20
+    },
+    "handles": {
+      "mean": 293,
+      "min": 293,
+      "max": 293
+    },
+    "threads": {
+      "mean": 13,
+      "min": 13,
+      "max": 13
+    },
+    "interruptsPerSec": {
+      "mean": 20640.30909809739,
+      "min": 20494.89613601716,
+      "max": 20784.281114098525
+    },
+    "interruptPercent": {
+      "mean": 1.017228945830716,
+      "min": 0.47460208894928835,
+      "max": 1.7589619966762065
+    },
+    "dpcPercent": {
+      "mean": 0.4023171633121289,
+      "min": 0.26702242346778843,
+      "max": 0.5156137378223956
+    },
+    "systemCpuPercent": {
+      "mean": 13.643979691083798,
+      "min": 13.283250479677134,
+      "max": 14.124297622612687
+    },
+    "systemContextSwitchesPerSec": {
+      "mean": 30547.770374896078,
+      "min": 30261.030169364956,
+      "max": 30755.381463465557
+    },
+    "launcherContextSwitchesPerSec": {
+      "mean": 3.697129613343557,
+      "min": 3.489903151116369,
+      "max": 4.099017095991387
+    },
+    "cpuOneCorePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "cpuMachinePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "processPeakWorkingSetMiB": {
+      "mean": 52.627604166666664,
+      "min": 52.07421875,
+      "max": 52.98046875
+    },
+    "visibleSamples": 18,
+    "totalSamples": 18
+  },
+  "radial/open-close": {
+    "trials": 3,
+    "workingSetMiB": {
+      "mean": 39.523030598958336,
+      "min": 39.329833984375,
+      "max": 39.66015625
+    },
+    "privateMiB": {
+      "mean": 8.636555989583334,
+      "min": 8.47509765625,
+      "max": 8.833984375
+    },
+    "gdi": {
+      "mean": 55,
+      "min": 55,
+      "max": 55
+    },
+    "user": {
+      "mean": 21,
+      "min": 21,
+      "max": 21
+    },
+    "handles": {
+      "mean": 293,
+      "min": 293,
+      "max": 293
+    },
+    "threads": {
+      "mean": 13,
+      "min": 13,
+      "max": 13
+    },
+    "interruptsPerSec": {
+      "mean": 22410.908264096128,
+      "min": 21563.22294534583,
+      "max": 23238.34042424269
+    },
+    "interruptPercent": {
+      "mean": 0.5684752704089222,
+      "min": 0.5404022490845687,
+      "max": 0.6201034510430308
+    },
+    "dpcPercent": {
+      "mean": 0.4223892430141983,
+      "min": 0.3816382594119185,
+      "max": 0.5030866090501643
+    },
+    "systemCpuPercent": {
+      "mean": 15.94622963053397,
+      "min": 15.6313197680013,
+      "max": 16.378167567214167
+    },
+    "systemContextSwitchesPerSec": {
+      "mean": 34038.53895437078,
+      "min": 32695.361626450976,
+      "max": 35354.43440867521
+    },
+    "launcherContextSwitchesPerSec": {
+      "mean": 332.04699769231524,
+      "min": 280.09515102061613,
+      "max": 375.61065948769584
+    },
+    "cpuOneCorePercent": {
+      "mean": 10.339025218580417,
+      "min": 9.925836401936229,
+      "max": 11.100514750974654
+    },
+    "cpuMachinePercent": {
+      "mean": 0.8615853710599909,
+      "min": 0.8271529536792175,
+      "max": 0.9250428368421134
+    },
+    "processPeakWorkingSetMiB": {
+      "mean": 53.953125,
+      "min": 53.84765625,
+      "max": 54.05078125
+    },
+    "visibleSamples": 24,
+    "totalSamples": 48
+  },
+  "radial/tray-warm": {
+    "trials": 3,
+    "workingSetMiB": {
+      "mean": 39.756510416666664,
+      "min": 39.25,
+      "max": 40.1875
+    },
+    "privateMiB": {
+      "mean": 9.51171875,
+      "min": 8.453125,
+      "max": 10.36328125
+    },
+    "gdi": {
+      "mean": 55,
+      "min": 55,
+      "max": 55
+    },
+    "user": {
+      "mean": 20.666666666666668,
+      "min": 20.666666666666668,
+      "max": 20.666666666666668
+    },
+    "handles": {
+      "mean": 293,
+      "min": 293,
+      "max": 293
+    },
+    "threads": {
+      "mean": 13,
+      "min": 13,
+      "max": 13
+    },
+    "interruptsPerSec": {
+      "mean": 20775.110765412468,
+      "min": 19569.074659686234,
+      "max": 22821.67354114266
+    },
+    "interruptPercent": {
+      "mean": 0.6339171678946771,
+      "min": 0.5179796449620949,
+      "max": 0.7163582376135663
+    },
+    "dpcPercent": {
+      "mean": 0.3223248471080484,
+      "min": 0.15175730136960353,
+      "max": 0.418657811490597
+    },
+    "systemCpuPercent": {
+      "mean": 12.807872777356295,
+      "min": 11.697441516998785,
+      "max": 14.021506593959485
+    },
+    "systemContextSwitchesPerSec": {
+      "mean": 30835.88878338356,
+      "min": 28766.68638961774,
+      "max": 34051.78519298523
+    },
+    "launcherContextSwitchesPerSec": {
+      "mean": 22.651166183114977,
+      "min": 5.162509649149633,
+      "max": 55.46070790017066
+    },
+    "cpuOneCorePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "cpuMachinePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "processPeakWorkingSetMiB": {
+      "mean": 53.953125,
+      "min": 53.84765625,
+      "max": 54.05078125
+    },
+    "visibleSamples": 0,
+    "totalSamples": 18
+  },
+  "radial/expanded-rgb": {
+    "trials": 3,
+    "workingSetMiB": {
+      "mean": 44.208984375,
+      "min": 42.459635416666664,
+      "max": 45.210286458333336
+    },
+    "privateMiB": {
+      "mean": 9.42209201388889,
+      "min": 7.752604166666667,
+      "max": 10.650390625
+    },
+    "gdi": {
+      "mean": 55,
+      "min": 55,
+      "max": 55
+    },
+    "user": {
+      "mean": 22.611111111111114,
+      "min": 22.5,
+      "max": 22.666666666666668
+    },
+    "handles": {
+      "mean": 294.2777777777778,
+      "min": 293.5,
+      "max": 294.6666666666667
+    },
+    "threads": {
+      "mean": 12.611111111111109,
+      "min": 12.5,
+      "max": 12.666666666666666
+    },
+    "interruptsPerSec": {
+      "mean": 22553.04949518255,
+      "min": 22520.707759555735,
+      "max": 22573.92164273135
+    },
+    "interruptPercent": {
+      "mean": 0.5204067462177852,
+      "min": 0.4807435518736527,
+      "max": 0.5732104475295632
+    },
+    "dpcPercent": {
+      "mean": 0.5501891229504227,
+      "min": 0.27033173693263274,
+      "max": 1.0554791613127055
+    },
+    "systemCpuPercent": {
+      "mean": 16.90743459807993,
+      "min": 16.44959890003889,
+      "max": 17.161414175783097
+    },
+    "systemContextSwitchesPerSec": {
+      "mean": 34054.557142334794,
+      "min": 33791.12461626951,
+      "max": 34197.53358454577
+    },
+    "launcherContextSwitchesPerSec": {
+      "mean": 155.99881730808616,
+      "min": 151.0532372751679,
+      "max": 161.2994943773211
+    },
+    "cpuOneCorePercent": {
+      "mean": 25.16144270019912,
+      "min": 24.760439424563152,
+      "max": 25.535119485035313
+    },
+    "cpuMachinePercent": {
+      "mean": 2.0967865078599086,
+      "min": 2.063369593717503,
+      "max": 2.1279262478006764
+    },
+    "processPeakWorkingSetMiB": {
+      "mean": 54.23828125,
+      "min": 53.9609375,
+      "max": 54.48046875
+    },
+    "visibleSamples": 18,
+    "totalSamples": 18
+  },
+  "web/tray-cold": {
+    "trials": 3,
+    "workingSetMiB": {
+      "mean": 12.223958333333334,
+      "min": 12.20703125,
+      "max": 12.23828125
+    },
+    "privateMiB": {
+      "mean": 2.0520833333333335,
+      "min": 2.0390625,
+      "max": 2.0703125
+    },
+    "gdi": {
+      "mean": 13,
+      "min": 13,
+      "max": 13
+    },
+    "user": {
+      "mean": 12,
+      "min": 12,
+      "max": 12
+    },
+    "handles": {
+      "mean": 157,
+      "min": 157,
+      "max": 157
+    },
+    "threads": {
+      "mean": 7,
+      "min": 7,
+      "max": 7
+    },
+    "interruptsPerSec": {
+      "mean": 19918.89568571511,
+      "min": 19501.31016837953,
+      "max": 20130.52535426624
+    },
+    "interruptPercent": {
+      "mean": 0.45855791214108593,
+      "min": 0.39463240564656177,
+      "max": 0.5656870915613207
+    },
+    "dpcPercent": {
+      "mean": 0.3388930422997601,
+      "min": 0.2973607102459935,
+      "max": 0.3863316944494171
+    },
+    "systemCpuPercent": {
+      "mean": 14.360490503372143,
+      "min": 10.959970912955013,
+      "max": 16.57837309080125
+    },
+    "systemContextSwitchesPerSec": {
+      "mean": 32633.794051126035,
+      "min": 28381.5739969592,
+      "max": 39577.926151213374
+    },
+    "launcherContextSwitchesPerSec": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "cpuOneCorePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "cpuMachinePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "processPeakWorkingSetMiB": {
+      "mean": 12.223958333333334,
+      "min": 12.20703125,
+      "max": 12.23828125
+    },
+    "visibleSamples": 0,
+    "totalSamples": 18
+  },
+  "web/tray-mouse": {
+    "trials": 3,
+    "workingSetMiB": {
+      "mean": 12.223958333333334,
+      "min": 12.20703125,
+      "max": 12.23828125
+    },
+    "privateMiB": {
+      "mean": 2.0520833333333335,
+      "min": 2.0390625,
+      "max": 2.0703125
+    },
+    "gdi": {
+      "mean": 13,
+      "min": 13,
+      "max": 13
+    },
+    "user": {
+      "mean": 12,
+      "min": 12,
+      "max": 12
+    },
+    "handles": {
+      "mean": 157,
+      "min": 157,
+      "max": 157
+    },
+    "threads": {
+      "mean": 7,
+      "min": 7,
+      "max": 7
+    },
+    "interruptsPerSec": {
+      "mean": 26599.9569937943,
+      "min": 25041.557137756532,
+      "max": 27876.73865448692
+    },
+    "interruptPercent": {
+      "mean": 0.4903568389235151,
+      "min": 0.3571345439912115,
+      "max": 0.7279482133731277
+    },
+    "dpcPercent": {
+      "mean": 0.47912157127804983,
+      "min": 0.41578198700359853,
+      "max": 0.5370302700402674
+    },
+    "systemCpuPercent": {
+      "mean": 16.45258296327415,
+      "min": 14.90878895069077,
+      "max": 19.01684904913189
+    },
+    "systemContextSwitchesPerSec": {
+      "mean": 41222.17340808911,
+      "min": 38838.177293494555,
+      "max": 42438.08188826094
+    },
+    "launcherContextSwitchesPerSec": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "cpuOneCorePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "cpuMachinePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "processPeakWorkingSetMiB": {
+      "mean": 12.223958333333334,
+      "min": 12.20703125,
+      "max": 12.23828125
+    },
+    "visibleSamples": 0,
+    "totalSamples": 18
+  },
+  "web/root": {
+    "trials": 3,
+    "workingSetMiB": {
+      "mean": 23.700520833333332,
+      "min": 23.6796875,
+      "max": 23.71875
+    },
+    "privateMiB": {
+      "mean": 5.188802083333333,
+      "min": 5.14453125,
+      "max": 5.21484375
+    },
+    "gdi": {
+      "mean": 55,
+      "min": 55,
+      "max": 55
+    },
+    "user": {
+      "mean": 20,
+      "min": 20,
+      "max": 20
+    },
+    "handles": {
+      "mean": 226,
+      "min": 226,
+      "max": 226
+    },
+    "threads": {
+      "mean": 7,
+      "min": 7,
+      "max": 7
+    },
+    "interruptsPerSec": {
+      "mean": 22735.657473170533,
+      "min": 22504.853275445126,
+      "max": 23103.35744902187
+    },
+    "interruptPercent": {
+      "mean": 0.5199771737247875,
+      "min": 0.4471499229318734,
+      "max": 0.5966469498609633
+    },
+    "dpcPercent": {
+      "mean": 0.45258957474267986,
+      "min": 0.2393224081244573,
+      "max": 0.5790526471222586
+    },
+    "systemCpuPercent": {
+      "mean": 15.234982656508272,
+      "min": 14.158888411449759,
+      "max": 15.773907242374932
+    },
+    "systemContextSwitchesPerSec": {
+      "mean": 34175.29142201828,
+      "min": 33793.64296744637,
+      "max": 34785.832486626285
+    },
+    "launcherContextSwitchesPerSec": {
+      "mean": 7.856615921217458,
+      "min": 6.904043055479854,
+      "max": 8.72398986398
+    },
+    "cpuOneCorePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "cpuMachinePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "processPeakWorkingSetMiB": {
+      "mean": 27.356770833333332,
+      "min": 27.3359375,
+      "max": 27.375
+    },
+    "visibleSamples": 18,
+    "totalSamples": 18
+  },
+  "web/expanded": {
+    "trials": 3,
+    "workingSetMiB": {
+      "mean": 30.66015625,
+      "min": 30.64453125,
+      "max": 30.67578125
+    },
+    "privateMiB": {
+      "mean": 6.520833333333333,
+      "min": 6.16015625,
+      "max": 6.703125
+    },
+    "gdi": {
+      "mean": 55,
+      "min": 55,
+      "max": 55
+    },
+    "user": {
+      "mean": 20,
+      "min": 20,
+      "max": 20
+    },
+    "handles": {
+      "mean": 293,
+      "min": 293,
+      "max": 293
+    },
+    "threads": {
+      "mean": 13,
+      "min": 13,
+      "max": 13
+    },
+    "interruptsPerSec": {
+      "mean": 20747.8567485276,
+      "min": 20445.079723954233,
+      "max": 21329.279289849805
+    },
+    "interruptPercent": {
+      "mean": 0.5242520048057647,
+      "min": 0.29913310249270353,
+      "max": 0.6684433527698556
+    },
+    "dpcPercent": {
+      "mean": 0.3934161103273535,
+      "min": 0.27251857298894283,
+      "max": 0.5160223733478432
+    },
+    "systemCpuPercent": {
+      "mean": 12.238523007245115,
+      "min": 11.184084137060362,
+      "max": 14.144701490591233
+    },
+    "systemContextSwitchesPerSec": {
+      "mean": 30578.152683620345,
+      "min": 30082.319234669125,
+      "max": 31361.37605290986
+    },
+    "launcherContextSwitchesPerSec": {
+      "mean": 3.333538586894426,
+      "min": 3.0199403154792606,
+      "max": 3.71216022533693
+    },
+    "cpuOneCorePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "cpuMachinePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "processPeakWorkingSetMiB": {
+      "mean": 33.126302083333336,
+      "min": 33.109375,
+      "max": 33.14453125
+    },
+    "visibleSamples": 18,
+    "totalSamples": 18
+  },
+  "web/open-close": {
+    "trials": 3,
+    "workingSetMiB": {
+      "mean": 29.907796223958332,
+      "min": 29.81494140625,
+      "max": 30.044189453125
+    },
+    "privateMiB": {
+      "mean": 6.213134765625,
+      "min": 6.1845703125,
+      "max": 6.2451171875
+    },
+    "gdi": {
+      "mean": 55,
+      "min": 55,
+      "max": 55
+    },
+    "user": {
+      "mean": 21,
+      "min": 21,
+      "max": 21
+    },
+    "handles": {
+      "mean": 293,
+      "min": 293,
+      "max": 293
+    },
+    "threads": {
+      "mean": 12.875,
+      "min": 12.625,
+      "max": 13
+    },
+    "interruptsPerSec": {
+      "mean": 23155.469893130692,
+      "min": 21197.3558702653,
+      "max": 27046.226567179965
+    },
+    "interruptPercent": {
+      "mean": 0.5924935951126576,
+      "min": 0.512364601410411,
+      "max": 0.7207437526772115
+    },
+    "dpcPercent": {
+      "mean": 0.42633356300606845,
+      "min": 0.3282179616410828,
+      "max": 0.5171968156546789
+    },
+    "systemCpuPercent": {
+      "mean": 16.591258900076998,
+      "min": 12.656751860545748,
+      "max": 23.34485782122101
+    },
+    "systemContextSwitchesPerSec": {
+      "mean": 37345.631239728355,
+      "min": 31423.856723838286,
+      "max": 49182.25255352506
+    },
+    "launcherContextSwitchesPerSec": {
+      "mean": 59.01704492973604,
+      "min": 56.324673848058794,
+      "max": 62.553413346988194
+    },
+    "cpuOneCorePercent": {
+      "mean": 4.461799376221853,
+      "min": 3.71903945309712,
+      "max": 5.460903329603894
+    },
+    "cpuMachinePercent": {
+      "mean": 0.37181658262643325,
+      "min": 0.3099199340753295,
+      "max": 0.4550752293827733
+    },
+    "processPeakWorkingSetMiB": {
+      "mean": 33.263020833333336,
+      "min": 33.24609375,
+      "max": 33.29296875
+    },
+    "visibleSamples": 24,
+    "totalSamples": 48
+  },
+  "web/tray-warm": {
+    "trials": 3,
+    "workingSetMiB": {
+      "mean": 29.520833333333332,
+      "min": 29.50390625,
+      "max": 29.54296875
+    },
+    "privateMiB": {
+      "mean": 6.20703125,
+      "min": 6.1953125,
+      "max": 6.22265625
+    },
+    "gdi": {
+      "mean": 55,
+      "min": 55,
+      "max": 55
+    },
+    "user": {
+      "mean": 20.666666666666668,
+      "min": 20.666666666666668,
+      "max": 20.666666666666668
+    },
+    "handles": {
+      "mean": 293,
+      "min": 293,
+      "max": 293
+    },
+    "threads": {
+      "mean": 12.666666666666666,
+      "min": 12,
+      "max": 13
+    },
+    "interruptsPerSec": {
+      "mean": 20512.992338465654,
+      "min": 19629.97939345756,
+      "max": 21627.948735780465
+    },
+    "interruptPercent": {
+      "mean": 0.5524140281994124,
+      "min": 0.43943513333938755,
+      "max": 0.7625355285490002
+    },
+    "dpcPercent": {
+      "mean": 0.48130441731894774,
+      "min": 0.40972488205325264,
+      "max": 0.6095659544993607
+    },
+    "systemCpuPercent": {
+      "mean": 13.322304115600838,
+      "min": 11.004595656293306,
+      "max": 17.350417548705263
+    },
+    "systemContextSwitchesPerSec": {
+      "mean": 30564.48670097814,
+      "min": 28956.090375479078,
+      "max": 32604.394148557767
+    },
+    "launcherContextSwitchesPerSec": {
+      "mean": 6.324150927144802,
+      "min": 5.618775636148722,
+      "max": 7.225647216124564
+    },
+    "cpuOneCorePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "cpuMachinePercent": {
+      "mean": 0,
+      "min": 0,
+      "max": 0
+    },
+    "processPeakWorkingSetMiB": {
+      "mean": 33.263020833333336,
+      "min": 33.24609375,
+      "max": 33.29296875
+    },
+    "visibleSamples": 0,
+    "totalSamples": 18
+  },
+  "web/expanded-rgb": {
+    "trials": 3,
+    "workingSetMiB": {
+      "mean": 31.010199652777775,
+      "min": 30.882161458333332,
+      "max": 31.088541666666668
+    },
+    "privateMiB": {
+      "mean": 6.440755208333333,
+      "min": 6.306640625,
+      "max": 6.509114583333333
+    },
+    "gdi": {
+      "mean": 55,
+      "min": 55,
+      "max": 55
+    },
+    "user": {
+      "mean": 22.611111111111114,
+      "min": 22.5,
+      "max": 22.666666666666668
+    },
+    "handles": {
+      "mean": 294.2777777777778,
+      "min": 293.5,
+      "max": 294.6666666666667
+    },
+    "threads": {
+      "mean": 12.277777777777777,
+      "min": 11.666666666666666,
+      "max": 12.666666666666666
+    },
+    "interruptsPerSec": {
+      "mean": 23841.963372742208,
+      "min": 23116.40645458571,
+      "max": 25138.75288642796
+    },
+    "interruptPercent": {
+      "mean": 0.6383886949037502,
+      "min": 0.5283127928791487,
+      "max": 0.7231968220118831
+    },
+    "dpcPercent": {
+      "mean": 0.7298478236191555,
+      "min": 0.36075537084795267,
+      "max": 1.2989178128031826
+    },
+    "systemCpuPercent": {
+      "mean": 19.294767136673784,
+      "min": 14.99060230757555,
+      "max": 22.895410491122025
+    },
+    "systemContextSwitchesPerSec": {
+      "mean": 35956.81671664273,
+      "min": 35191.74361050216,
+      "max": 37190.22842463952
+    },
+    "launcherContextSwitchesPerSec": {
+      "mean": 156.32160497325185,
+      "min": 151.84105222012673,
+      "max": 160.07685044374895
+    },
+    "cpuOneCorePercent": {
+      "mean": 12.431884768739272,
+      "min": 9.719879768438947,
+      "max": 13.80294348101003
+    },
+    "cpuMachinePercent": {
+      "mean": 1.0359901362591597,
+      "min": 0.8099897548295034,
+      "max": 1.1502450360558938
+    },
+    "processPeakWorkingSetMiB": {
+      "mean": 33.372395833333336,
+      "min": 33.3515625,
+      "max": 33.38671875
+    },
+    "visibleSamples": 18,
+    "totalSamples": 18
+  }
+}

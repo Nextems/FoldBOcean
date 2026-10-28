@@ -1,0 +1,25 @@
+{
+  "productName": "FoldBOcean",
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "icon": ["icons/icon.ico"],
+    "resources": {
+      "../release/FoldBOcean.exe": "FoldBOcean.exe",
+      "../native/vendor/LICENSE.json": "licenses/nlohmann-json.txt",
+      "../THIRD_PARTY_NOTICES.md": "licenses/THIRD_PARTY_NOTICES.md"
+    },
+    "publisher": "Nextems",
+    "shortDescription": "Настраиваемая панель запуска приложений",
+    "windows": {
+      "webviewInstallMode": {"type": "downloadBootstrapper", "silent": true},
+      "nsis": {
+        "installMode": "currentUser",
+        "languages": ["Russian", "English"],
+        "displayLanguageSelector": true,
+        "startMenuFolder": "FoldBOcean",
+        "installerHooks": "installer-hooks.nsh"
+      }
+    }
+  }
+}

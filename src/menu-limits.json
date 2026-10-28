@@ -1,0 +1,6 @@
+{
+  "capacities": [5, 7, 13],
+  "maxName": 256,
+  "maxId": 128,
+  "maxPath": 32767
+}

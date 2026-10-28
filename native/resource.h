@@ -1,0 +1,3 @@
+#define IDI_SPIDERWEB 101
+#define IDR_PRESETS 201
+#define IDR_LIMITS 202

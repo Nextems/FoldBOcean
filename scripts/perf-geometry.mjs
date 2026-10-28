@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import {build} from 'esbuild';
+const built=await build({entryPoints:[new URL('../src/layout.js',import.meta.url).pathname.slice(1)],bundle:true,write:false,format:'esm',platform:'node'});
+const {makeScene}=await import('data:text/javascript;base64,'+Buffer.from(built.outputFiles[0].text).toString('base64'));
+const config=JSON.parse(fs.readFileSync(process.argv[2],'utf8').replace(/^\uFEFF/,''));
+const scene=makeScene(config),nodes=scene.nodes;
+const minX=Math.min(...nodes.map(n=>n.x-60),...scene.edges.flatMap(e=>[e.a.x,e.b.x]));
+const minY=Math.min(...nodes.map(n=>n.y-18),...scene.edges.flatMap(e=>[e.a.y,e.b.y]));
+const maxX=Math.max(...nodes.map(n=>n.x+60),...scene.edges.flatMap(e=>[e.a.x,e.b.x]));
+const maxY=Math.max(...nodes.map(n=>n.y+18),...scene.edges.flatMap(e=>[e.a.y,e.b.y]));
+const root=nodes.find(n=>n.id==='sys-prog');
+console.log(JSON.stringify({width:maxX-minX+24,height:maxY-minY+24,x:root.x-minX+12,y:root.y-minY+12}));

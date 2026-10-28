@@ -1,0 +1,4 @@
+#include "resource.h"
+IDI_SPIDERWEB ICON "../src-tauri/icons/icon.ico"
+IDR_PRESETS RCDATA "../src/system-presets.json"
+IDR_LIMITS RCDATA "../src/menu-limits.json"
